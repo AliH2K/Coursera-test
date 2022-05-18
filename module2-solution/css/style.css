@@ -13,6 +13,9 @@
 
 #b {
 	background-color: #C14543;
+	color: white;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 body {
