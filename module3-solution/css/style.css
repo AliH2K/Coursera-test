@@ -1,0 +1,49 @@
+section div{
+    border: black solid;
+    
+}
+a.navbar-brand{
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+nav{
+    background-color: #999999;
+    border: black solid;
+}
+p#menu-name.text-center{
+    font-size: 2em;
+}
+div.col-lg-4{
+    font-size: 1.3em;
+    
+}
+h1.text-center{
+    margin: 50px 0 50px 0;
+}
+@media (min-width: 993px){
+ div.col-lg-4{
+    width: 31%;
+ }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    div.col-lg-4{
+        width: 46%;
+    }
+    div.col-lg-4.col-md-12{
+        width: 94.6%;
+
+    }
+}
+@media (max-width: 576px){
+    div.col-lg-4{
+        width: 94%;
+    }
+}
+div.col-lg-4{
+    background-color: #999999;
+    margin-bottom: 10px;
+}
+div.offcanvas{
+    font-size: 1.3em;
+}
